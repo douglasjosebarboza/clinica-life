@@ -35,7 +35,7 @@ header{
 .primeiro-container{
   width: 100vw;
   height: 500px;
-  background-image: url("./assets/imgs/recepcao.png");
+  background-image: url("../assets/imgs/recepcao.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
