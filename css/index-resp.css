@@ -1,0 +1,42 @@
+@media (max-width: 1024px) {
+  .primeiro-container{
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .primeiro-container{
+    height: 300px;
+  }
+
+  .container-list img{
+    display: none;
+  }
+
+  .container-imgs figure{
+    width: calc(100% / 2 - 60px);
+  }
+}
+
+@media (max-width: 425px) {
+  .container-topo{
+    flex-direction: column;
+  }
+  
+  .container-nav{
+    border-top: 1px solid #004b4c;
+    padding: 10px;
+  }
+
+  .primeiro-container{
+    height: 200px;
+  }
+
+  .titulo{
+    font-size: 28px;  
+  }
+
+  .container-imgs figure{
+    width: calc(100% - 60px); 
+  }
+}
