@@ -1,0 +1,16 @@
+@media (max-width: 768px){
+  .container-ImgAndTabela img{
+    display: none;
+  }
+
+  .container-ImgAndTabela table{
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px){
+  .container-ImgAndTabela table{
+    padding: 0;
+    height: 100%;
+  }
+}
