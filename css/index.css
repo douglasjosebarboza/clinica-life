@@ -1,2 +1,134 @@
-*{box-sizing: border-box; padding: 0; margin: 0; text-decoration: none;}
+*{box-sizing: border-box; padding: 0; margin: 0;}
 
+a{
+  text-decoration: none; 
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fff;
+  color: #0000008c;
+}
+
+header{
+  background-color:  #00cad1;
+}
+.container-topo{
+  margin: auto;
+  width: 1024px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links-nav{
+  padding: 0 15px;
+  color: #fff;
+}
+
+.links-nav:hover{
+  color: #004b4c;
+}
+
+.primeiro-container{
+  width: 100%;
+  height: 500px;
+  background-image: url("/assets/imgs/recepcao.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-titulo{
+  height: 100%;
+  width: 1024px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.segundo-container{
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-infos, .container-list{
+  max-width: 600px;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.container-infos p{
+  padding: 10px 0;
+}
+
+.container-list{
+  display: flex;
+  gap: 25px;
+}
+
+.container-list div{
+  margin: auto;
+}
+
+.container-list div p{
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.terceiro-container{
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-imgs{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 20px;
+
+}
+
+.container-imgs figure{
+  box-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+}
+
+.container-imgs img{
+  width: 100%;
+}
+
+.container-imgs figcaption{
+  padding: 10px;
+}
+
+.container-btn-horarios{
+  text-align: center;
+  margin: 40px 0;
+}
+
+.container-btn-horarios a{
+  background-color: #00cad1;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+footer {
+  background-color: #0d6e71;
+  color: #fff;
+  padding: 20px;
+}
+
+footer section {
+  text-align: center;
+  color: #fff;
+}
