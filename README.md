@@ -14,5 +14,7 @@ O sistema de navegação permite aos usuários explorarem facilmente diversas á
 ### Tecnologias utilizadas
 - HTML
 - CSS
+- Paginação
+- Resposividade
 
 ### Acesse o site por [aqui](https://douglasjosebarboza.github.io/clinica-life/)
